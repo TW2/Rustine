@@ -1,4 +1,4 @@
-**Using this in gtk-rs to dealing with Notebook (GTK4 with Rust)**
+**Use this in gtk-rs to dealing with Notebook (GTK4 with Rust)**
 
 ```
 let notebook = gtk::Notebook::builder()

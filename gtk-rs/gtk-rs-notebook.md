@@ -1,4 +1,4 @@
-**Use this in gtk-rs to dealing with Notebook (GTK4 with Rust)**
+**Use this in gtk-rs to dealing with Notebook (GTK4 with Rust) :**
 
 ```
 let notebook = gtk::Notebook::builder()
@@ -24,3 +24,7 @@ notebook.append_page(&container_001, Some(&label_001));
 notebook.append_page(&container_002, Some(&label_002));
 notebook.append_page(&container_003, Some(&label_003));
 ```
+
+**For example you can do something like this :**
+
+![Notebook](https://github.com/TW2/Rustine/blob/master/gtk-rs/images/gtk-rs-notebook.png)

@@ -30,7 +30,7 @@ DrawingAreaExtManual::set_draw_func(&drawing_area, move |_, cr, w, h| {
 
 ```
 cr.set_source_rgb(0.0,0.8,0.8);
-cr.select_font_face("Sans", FontSlant::Normal, Normal);
+cr.select_font_face("Sans", FontSlant::Normal, FontWeight::Normal);
 cr.set_font_size(12.0);
 cr.move_to(50.0, 50.0);
 cr.show_text("Hello World!").expect("TODO: panic message");

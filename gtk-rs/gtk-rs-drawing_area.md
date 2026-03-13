@@ -21,3 +21,7 @@ DrawingAreaExtManual::set_draw_func(&drawing_area, move |_, cr, w, h| {
     cr.stroke().unwrap();
 });
 ```
+
+**This is an example that shows a circle drawn on control :**
+
+![Drawing Area](https://github.com/TW2/Rustine/blob/master/gtk-rs/images/gtk-rs-drawing_area.png)

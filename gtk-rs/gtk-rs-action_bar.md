@@ -30,3 +30,7 @@ btn_save.connect_clicked(move |_| {
 });
 action_bar.pack_start(&btn_save);
 ```
+
+**You can obtain a similary Action Bar :**
+
+![Action Bar](https://github.com/TW2/Rustine/blob/master/gtk-rs/images/gtk-rs-action_bar.png)

@@ -1,4 +1,4 @@
-**Use this to draw on a drawing area in gtk-rs (GTK4 in Rust) :**
+**Use this to draw on a DrawingArea in gtk-rs (GTK4 in Rust) :**
 
 ```
 let drawing_area = gtk::DrawingArea::new();

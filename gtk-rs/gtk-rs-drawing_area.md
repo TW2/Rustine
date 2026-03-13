@@ -26,7 +26,7 @@ DrawingAreaExtManual::set_draw_func(&drawing_area, move |_, cr, w, h| {
 
 ![Drawing Area](https://github.com/TW2/Rustine/blob/master/gtk-rs/images/gtk-rs-drawing_area.png)
 
-**If you want to add a text, this can be do like this :**
+**If you want to add a text, this can be done like this :**
 
 ```
 cr.set_source_rgb(0.0,0.8,0.8);
@@ -34,4 +34,12 @@ cr.select_font_face("Sans", FontSlant::Normal, FontWeight::Normal);
 cr.set_font_size(12.0);
 cr.move_to(50.0, 50.0);
 cr.show_text("Hello World!").expect("TODO: panic message");
+```
+**If you want to add an image, this can be done like this :**
+
+```
+cr.set_source_pixbuf(
+    &gtk::gdk_pixbuf::Pixbuf::from_file("src/assets/images/32_folder.png")
+    .as_ref().expect("TODO: panic message"), 20.0, 20.0);
+cr.paint().expect("TODO: panic message");
 ```
